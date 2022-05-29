@@ -1,0 +1,30 @@
+.side__menu {
+  padding-top: 40px;
+  padding-left: 30px;
+  display: ;
+  grid-template-rows: repeat(3, 34px);
+  row-gap: 3px;
+}
+.side__menu__submenu {
+  position: relative;
+  padding: 10px 10px;
+}
+.side__menu .side__menu__submenu:hover ul {
+  opacity: 1;
+  transition: 0.9s;
+}
+.side__menu .side__menu__submenu ul {
+  opacity: 0;
+  transition: 0.9s;
+  position: sticky;
+  left: 125px;
+  top: 0;
+  width: max-content;
+  background-color: rgba(177, 177, 177, 0.5);
+  list-style-type: none;
+  padding: 0;
+  color: gray;
+  border-radius: 15px;
+  border-width: 300px;
+  border-right-width: 100px;
+}

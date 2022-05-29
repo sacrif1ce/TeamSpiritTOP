@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap");
+@font-face {
+  font-family: "TTNormsMedium";
+  src: url("../fonts/TTNormsMedium/TTNormsMedium.eot");
+  src: url("../fonts/TTNormsMedium/TTNormsMedium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TTNormsMedium/TTNormsMedium.woff") format("woff"),
+    url("../fonts/TTNormsMedium/TTNormsMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px auto 150px;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  background: rgba(0, 0, 0, 0);
+  background-color: rgba(177, 177, 177, 0.1);
+}
+header img {
+  height: 300px;
+  margin-top: 50px;
+  width: auto;
+  margin-left: 100px;
+}
+header h1 {
+  margin-top: 70px;
+  margin-left: -160px;
+  font-size: 55px;
+  font-family: "Rubik", sans-serif;
+  white-space: pre;
+  overflow: ;
+}
+header a {
+  font-family: "Rubik", sans-serif;
+  margin-top: 100px;
+  font-size: 100px;
+}
+header {
+  grid-area: header;
+  display: grid;
+  width: 100vw;
+  height: 100px;
+  grid-template-columns: 60px 1fr;
+  column-gap: 600px;
+  align-items: center;
+}
+nav {
+  grid-area: sidebar;
+  width: 200px;
+  height: auto;
+  font-size: 100px;
+  margin-right: 0px;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  color: black;
+}
+main {
+  grid-area: main;
+  width: 100vw;
+  height: 125px;
+  margin-top: 150px;
+  margin-left: 650px;
+  font-size: 50px;
+  font-family: "Rubik", sans-serif;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+footer {
+  grid-area: footer;
+  background-color: (255, 255, 255);
+  padding-top: 270px;
+  padding-left: 100px;
+}
+footer-columns {
+  display: flex;
+}
+footer nav {
+  background: none;
+}
+h1 {
+  margin-left: 0px;
+  margin-right: 100px;
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+script {
+  padding-left: 500px;
+}
+div {
+  white-space: pre;
+  overflow: ;
+  padding-left: 600px;
+  padding-top: -5px;
+  text-overflow: clip;
+  font-size: 30px;
+  font-family: "TTNormsMedium";
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 23px;
+}
+p {
+  font-family: "Rubik", sans-serif;
+}
+li {
+  font-family: "Rubik", sans-serif;
+  padding-left: -5px;
+}
+a {
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-family: "TTNormsMedium";
+  padding-left: px;
+}
+h8 {
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-family: "TTNormsMedium";
+}
+.scale {
+  margin-top: 17px;
+}
+p1 {
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-family: "TTNormsMedium";
+  margin-left: px;
+  padding-top: -500px;
+  white-space: pre;
+}
